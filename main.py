@@ -2,11 +2,11 @@ from langgraph.graph import StateGraph, START, END
 from state import GraphState
 from parser_node import extract_text, formatted_resume, formatted_jds
 from embedding_rank_node import ranking_node
-from selecion_node import selection_node
+from selection_node import selection_node
 from smart_gap_analysis_node import smart_gap_analysis
 from interview_question_node import interview_questions
 from resume_suggestion_node import resume_suggestions
-from hilt_node import add_skills_node, select_jd_node
+from hitl_node import add_skills_node, select_jd_node
 
 graph = StateGraph(GraphState)
 
