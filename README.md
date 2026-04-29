@@ -8,7 +8,7 @@ This project helps candidates compare their resume against multiple Job Descript
 
 # 🚀 Live Demo
 
-(Add your deployed link here after deployment)
+https://ats-resume-analyser.streamlit.app/
 
 ---
 
@@ -101,3 +101,16 @@ ATS/
 │── README.md
 
 ```
+
+## ⚠️ Note on Results
+
+This application uses Large Language Models (LLMs) and embedding-based similarity to analyze resumes and job descriptions.
+
+While it aims to provide helpful insights, results may not always be perfectly accurate or complete. Factors such as phrasing, context, and model interpretation can affect outcomes.
+
+This tool should be used as a **guidance system**, not as a definitive evaluation.
+
+For best results, users are encouraged to:
+- Review suggestions critically
+- Use Human-in-the-Loop (HITL) options
+- Cross-check important decisions manually
