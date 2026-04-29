@@ -113,8 +113,11 @@ if run_btn:
         st.error("Upload resume.")
         st.stop()
 
+    st.sidebar.divider()
+    st.sidebar.subheader("Job Descriptions")
+
     if len(raw_jds) == 0:
-        st.error("Enter at least one JD.")
+        st.error("Enter at least one Job Description.")
         st.stop()
 
     
